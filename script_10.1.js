@@ -8,8 +8,8 @@ if (
 ) {
   console.log(typeof result);
   alert("Упс, кажется, вы ошиблись");
-} else if (isNaN(result)) {
-  alert("Введено не число");
+  /*} else if (isNaN(result)) {
+  alert("Введено не число");*/
 } else if (result % 2 === 0) {
   alert("Число четное");
 } else {
