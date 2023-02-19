@@ -1,5 +1,5 @@
-let arr = [2, 2, 2, 2];
-let answer;
+let arr = [3, 3, 3, 3];
+let answer = true;
 for (let i = 0; i < arr.length; i++) {
   for (let j = i + 1; j < arr.length; j++) {
     if (arr[i] !== arr[j]) {
@@ -8,7 +8,7 @@ for (let i = 0; i < arr.length; i++) {
   }
 }
 if (answer == false) {
-  console.log(false);
+  console.log(answer);
 } else {
-  console.log(true);
+  console.log(answer);
 }
